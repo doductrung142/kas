@@ -1,0 +1,527 @@
+
+/**************** Login page******************/
+@media only screen and (max-width:767px) {
+	.loginContent .LoginPanel {
+		width: 100% !important;
+	}
+	.loginContent .dnnFormItem .dnnLoginRememberMe {
+		white-space: nowrap;
+	}
+	.loginContent .dnnFormLabel {
+		display: block !important;
+		text-align: left !important;
+	}
+}
+
+form[action*="/Login?returnurl"] .loginContent .LoginPanel{
+	width:500px!important;
+}
+form[action*="/Login?returnurl"] .loginContent .dnnFormItem .dnnLoginRememberMe {
+	white-space:inherit;
+}
+form[action*="/Login?returnurl"] .loginContent .dnnFormLabel {
+	display: inline-block !important;
+	text-align: right !important;
+}
+
+
+.registerGroup ul,
+.registerGroup li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.registerGroup,
+.loginGroup{
+	display: inline-block;
+}
+.registerGroup a,
+.loginGroup a,
+.registerGroup a:link,
+.loginGroup a:link,
+.registerGroup a:active,
+.loginGroup a:active,
+.registerGroup a:visited,
+.loginGroup a:visited{
+	color:inherit;
+}
+
+.loginContent a,
+.loginContent a:link{
+	color:#333;
+}
+.loginContent a.dnnPrimaryAction{
+	color:#FFF;
+}
+.loginContent a:hover{
+	text-decoration: none;
+}
+
+/**************** register page******************/
+@media only screen and (max-width:767px) {
+.dnnRegistrationForm {
+	min-width: inherit !important;
+}
+.dnnRegistrationForm .dnnForm {
+	width: 100%;
+}
+.dnnRegistrationForm .dnnFormLabel {
+	display: block !important;
+	text-align: left !important;
+}
+.dnnRegistrationForm .dnnForm .dnnFormItem .dnnLabel {
+	display: block !important;
+	float: none !important;
+	text-align: left !important;
+	width: 100%;
+}
+.dnnRegistrationForm .dnnForm .dnnFormItem a.dnnFormHelp {
+	right: auto !important;
+	position: static !important;
+	margin-left: 5px !important;
+}
+.dnnRegistrationForm .dnnForm .dnnFormItem {
+	padding: 0px !important;
+	margin: 0px !important;
+}
+.dnnRegistrationForm .dnnFormItem input[type="text"],
+.dnnRegistrationForm .dnnFormItem input[type="password"],
+.dnnRegistrationForm .dnnFormItem input[type="email"],
+.dnnRegistrationForm .dnnFormItem input[type="tel"],
+.dnnRegistrationForm .dnnFormItem select,
+.dnnRegistrationForm .dnnFormItem textarea {
+	width: 100%;
+	margin-bottom: 10px !important;
+}
+}
+
+/**************** Password page******************/
+@media only screen and (max-width:767px) {
+.dnnSendPasswordContent {
+	width: auto !important;
+}
+.dnnSendPasswordContent .dnnLabel {
+	display: block !important;
+	width: 100% !important;
+	text-align: left;
+}
+.dnnSendPasswordContent a.dnnFormHelp,
+.dnnSendPasswordContent .dnnForm .dnnFormItem a.dnnFormHelp,
+.dnnSendPasswordContent .dnnTooltip label a.dnnFormHelp {
+	position: static;
+}
+.dnnSendPasswordContent input[type="text"],
+.dnnSendPasswordContent input[type="password"],
+.dnnSendPasswordContent input[type="email"],
+.dnnSendPasswordContent input[type="tel"],
+.dnnSendPasswordContent select,
+.dnnSendPasswordContent textarea {
+	width: 90%;
+	margin-bottom: 10px !important;
+}
+.dnnSendPasswordContent ul.dnnActions {
+	padding: 0 !important;
+}
+}
+/*footer*/
+footer.footer .dngTextBox,
+.footer-logoin{
+	display: inline-block
+}
+.footer-logoin{
+
+	
+}
+
+/* ********** Control Panel Style ************** */
+.CommandButton,
+A.CommandButton:link,
+A.CommandButton:visited,
+A.CommandButton:active {
+	font-size: 12px;
+	color: #973939;
+	text-decoration: none;
+	font-weight: normal;
+}
+A.CommandButton:hover {
+	color: #973939;
+	text-decoration: underline;
+	font-size: 12px;
+	font-weight: normal;
+}
+.FileManager A,
+.FileManager A:link,
+.FileManager A:visited,
+.FileManager A:active {
+	color: #000;
+	text-decoration: underline;
+}
+.FileManager A:hover {
+	color: #000;
+	text-decoration: none;
+}
+/* ********** Pane Style ************** */
+.DNNEmptyPane {
+	display: none;
+}
+#dnn_ControlPanel #dnnCPWrap {
+	filter: none !important;
+}
+ul.dnnActionMenuBody li ul li a,
+ul.dnnActionMenuBody li ul li a img {
+	color: #328DDE!important;
+}
+form#Form {
+	height: 100%;
+}
+.ModuleTitle_SubMenu {
+	z-index: 9999!important;
+}
+/* ********** Pane Style End ************** */
+
+/*dnn*/
+.dnnEditState .actionMenu { 
+	z-index: 1!important; display: block!important; 
+}
+#Body[style*="margin-left: 80px"]{
+	position: relative;
+}
+#Body[style*="margin-left: 80px"] .dng-main.Wide .floating-active.header-wrap,
+#Body[style*="margin-left: 80px"] .dng-main.Wide .sticky-fixed .floating-nav.floating-nav-sticky {
+	left: 80px;
+	width: auto;
+	right: 0;
+}
+#Body[style*="margin-left: 80px"] .headersidenav{
+	left: 80px;
+}
+#Body[style*="margin-left: 80px"] .leftslidemenu.active{
+	margin-left: 80px;
+}
+#Form.showControlBar{
+	position: relative;
+}
+
+.dnnEditState .overlay-panel-content{
+    position: relative!important;
+    display: block!important;
+    z-index: 99!important;
+    overflow: visible;
+    width: 100%;
+}
+.dnnEditState .overlay-panel-content:before{
+	position: absolute;
+}
+.dnnEditState .overlay-panel-content .overlay-panel-close{
+	position: absolute;
+}
+
+.dnnEditState .overlay-panel-content .dng_animate_visible,
+.cke_editable .dng_animate_visible{
+	opacity: 1;
+}
+.dnnEditState .side-panel-box.side-panel .side-panel-main{
+	min-height: 100vh
+
+}
+
+.dnnEditState .side-panel {
+    position: relative!important;
+    left: auto!important;
+    right: 0!important;
+    top: 0!important;
+	visibility: visible!important;
+	display: inline-block;
+	z-index: 100!important;
+}
+
+#PageTemplate_Modal .modal-body{
+	height:calc(100% - 65px);
+}
+#PageTemplate_Modal .close{
+	position: absolute;
+	right: 4px;
+	top: -3px;
+	font-size: 35px;
+}
+
+#setting-message-info{
+	position: fixed;
+	right: 25px;
+	top:25px;
+	z-index: 10001;
+	display: none;
+	padding: 15px;
+	border-radius: 5px;
+	color: #FFF;
+	font-size: 14px;
+	background-color: #32373c;
+}
+#setting-message-info .fa{
+	border-width: 2px;
+	border-style: solid ;
+	font-size: 10px;
+	width: 25px;
+	height: 25px;
+	line-height: 22px;
+	text-align: center;
+	border-radius: 50%;
+	display: inline-block;
+	margin-bottom: 2px;
+	
+}
+#setting-message-info-full {
+	position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10000001;
+    background: #000;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+	display: none;
+}
+#setting-message-info-full .waitaminute-message{
+	position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-top: -30px;
+}
+
+#setting-message-info-full .cog{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    line-height: 1;
+	margin-bottom: 10px;
+
+ 
+
+}
+#setting-message-info-full .cog .fa-cog{
+	width: 1em;
+	height: 1em;
+	display: inline-block;
+	background: url('data:image/svg+xml;utf8,<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg"><path d="M487.4 315.7l-42.6-24.6c4.3-23.2 4.3-47 0-70.2l42.6-24.6c4.9-2.8 7.1-8.6 5.5-14-11.1-35.6-30-67.8-54.7-94.6-3.8-4.1-10-5.1-14.8-2.3L380.8 110c-17.9-15.4-38.5-27.3-60.8-35.1V25.8c0-5.6-3.9-10.5-9.4-11.7-36.7-8.2-74.3-7.8-109.2 0-5.5 1.2-9.4 6.1-9.4 11.7V75c-22.2 7.9-42.8 19.8-60.8 35.1L88.7 85.5c-4.9-2.8-11-1.9-14.8 2.3-24.7 26.7-43.6 58.9-54.7 94.6-1.7 5.4.6 11.2 5.5 14L67.3 221c-4.3 23.2-4.3 47 0 70.2l-42.6 24.6c-4.9 2.8-7.1 8.6-5.5 14 11.1 35.6 30 67.8 54.7 94.6 3.8 4.1 10 5.1 14.8 2.3l42.6-24.6c17.9 15.4 38.5 27.3 60.8 35.1v49.2c0 5.6 3.9 10.5 9.4 11.7 36.7 8.2 74.3 7.8 109.2 0 5.5-1.2 9.4-6.1 9.4-11.7v-49.2c22.2-7.9 42.8-19.8 60.8-35.1l42.6 24.6c4.9 2.8 11 1.9 14.8-2.3 24.7-26.7 43.6-58.9 54.7-94.6 1.5-5.5-.7-11.3-5.6-14.1zM256 336c-44.1 0-80-35.9-80-80s35.9-80 80-80 80 35.9 80 80-35.9 80-80 80z" fill="%23ffffff" ></path></svg>');
+	background-size: cover;
+
+}
+#setting-message-info-full .cog .fa-cog::before{
+	content: none;
+}
+#setting-message-info-full .cog .icon1{
+	-webkit-animation: rotatemessage-r 5s infinite linear;
+	animation: rotatemessage-r 5s infinite linear;
+}
+#setting-message-info-full .cog .icon2{
+    position: absolute;
+    font-size: 0.5em;
+    top: 0;
+	-webkit-animation: rotatemessage 3s infinite linear;
+	animation: rotatemessage 3s infinite linear;
+
+}
+#setting-message-info-full .cog .icon3{
+	position: absolute;
+    font-size: 0.5em;
+    bottom: 0;
+	-webkit-animation: rotatemessage 3s infinite linear;
+	animation: rotatemessage 3s infinite linear;
+}
+
+/* Animations */
+@-webkit-keyframes rotatemessage {
+	from {
+	  -webkit-transform: rotate(0deg);
+			  transform: rotate(0deg);
+	}
+	to {
+	  -webkit-transform: rotate(360deg);
+			  transform: rotate(360deg);
+	}
+  }
+  @keyframes rotatemessage {
+	from {
+	  -webkit-transform: rotate(0deg);
+			  transform: rotate(0deg);
+	}
+	to {
+	  -webkit-transform: rotate(360deg);
+			  transform: rotate(360deg);
+	}
+  }
+  @-webkit-keyframes rotatemessage-r {
+	from {
+	  -webkit-transform: rotate(0deg);
+			  transform: rotate(0deg);
+	}
+	to {
+	  -webkit-transform: rotate(-360deg);
+			  transform: rotate(-360deg);
+	}
+  }
+  @keyframes rotatemessage-r {
+	from {
+	  -webkit-transform: rotate(0deg);
+			  transform: rotate(0deg);
+	}
+	to {
+	  -webkit-transform: rotate(-360deg);
+			  transform: rotate(-360deg);
+	}
+  }
+
+.DNNEmptyPane{
+	display: none!important;
+}
+
+/*pane name*/
+.dnnEditState .edit-panename{
+	position: absolute;
+	z-index: 100;
+	pointer-events: none;
+	user-select: none; 
+	color: #cdcdcd;
+    font-size: 18px;
+	font-weight: bold;
+	left: 50%;
+	top: 20px;
+	transform: translate(-50%,0);
+	text-shadow: 0 0 1px rgba(255,255,255,0.2);
+}
+
+/*SkinPlugin*/
+.SkinPlugin_icon{
+	display: none;
+}
+.SkinPluginPro_icon:not(.sidebarIcon) {
+	position:fixed;
+	top:20%;
+	right:0;
+	z-index:9999;
+	cursor:pointer;
+	text-align: right;
+	white-space: pre;
+}
+
+.SkinPluginPro_icon:not(.sidebarIcon) a{
+	display:inline-block;
+	height:34px;
+	line-height: 34px;
+	text-decoration:none;
+	background-color: #20a3f0;
+	text-align: center;
+	border-radius: 4px 0 0 4px;
+	white-space: nowrap;
+	padding: 0;
+	margin: 0 0 2px;
+}
+.SkinPluginPro_icon:not(.sidebarIcon) span{
+	color: #FFF;
+	max-width: 0px;
+	overflow: hidden;
+	display:inline-block;
+	vertical-align: middle;
+	text-indent: 1em;
+	font-size: 13px;
+	transition: all ease-in 300ms;
+	-moz-transition: all ease-in 300ms;  
+	-webkit-transition: all ease-in 300ms;  
+	-o-transition: all ease-in 300ms; 
+	-ms-transition: all ease-in 300ms; 
+}
+.SkinPluginPro_icon:not(.sidebarIcon) i{
+	font-size: 16px;
+	color: #FFF;
+	width:34px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.SkinPluginPro_icon:not(.sidebarIcon) i::before{
+	content: none;
+}
+.SkinPluginPro_icon:not(.sidebarIcon) a:hover span{
+	max-width:160px;
+}
+.SkinPluginPro_icon:not(.sidebarIcon)  a{
+	background-image: url(resource/images/cog.png);
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+
+}
+.SkinPluginPro_icon:not(.sidebarIcon) .btn-plugin-theme{
+    background-position: right -3px top -30px;
+
+}
+.SkinPluginPro_icon:not(.sidebarIcon) .btn-plugin-page{
+    background-position: right -3px top 2px;
+}
+.SkinPluginPro_icon:not(.sidebarIcon) .btn-plugin-import{
+    background-position: right -3px top -60px;
+
+}
+
+.btn-plugin.btn-plugin-headerlayout{
+	width: 40px;
+    height: 40px;
+    border-radius: 0;
+    box-sizing: border-box;
+    padding: 0px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+    background-color: rgba(0, 172, 214,0.8);
+	color: #fff;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 512 512'%3E %3Cpath fill='rgba(255,255,255,1)' d='M461.9 114.9l-56.5 56.7-55.1-10-9.9-55.1 56.5-56.7c-12.7-12.7-30.8-18.5-44.2-17.8-13.5.7-42.3 8.3-64.6 32-21.6 22.8-44.3 65.3-24.2 112.5 2.4 5.7 5.1 13.2-2.9 21.2-8.1 8-215 202.8-215 202.8-19.4 16.7-18 47.6-.1 65.6 18.2 17.9 48.9 19 65.6-.3 0 0 193.2-205.8 202.7-215.1 8.5-8.3 16.1-5.5 21.2-2.9 35.6 18.4 86.3 2.4 112.6-23.9 26.3-26.3 31.1-51.7 31.9-64.7.8-12.9-3.7-30-18-44.3zM91.3 443.2c-6.3 6.2-16.5 6.2-22.7 0-6.2-6.3-6.2-16.5 0-22.7 6.3-6.2 16.5-6.2 22.7 0 6.2 6.3 6.2 16.5 0 22.7z'/%3E%3C/svg%3E");
+	background-size: 1em 1em;
+	background-position: center center;
+	background-repeat: no-repeat;
+	transition:all 300ms ease-in;
+}
+.btn-plugin.btn-plugin-headerlayout span,
+.btn-plugin.btn-plugin-headerlayout i{
+	display: none;
+}
+.btn-plugin.btn-plugin-headerlayout:hover{
+    background-color: rgb(0, 172, 214);
+}
+
+div.actionMenu ul.dnn_mact > li.actionMenuMove > ul li{
+	height: auto!important;
+}
+
+ 
+.col-md-12 {
+    float: none!important;
+}
+
+#dnn_content .dnnForm.dnnLogin{
+	padding-top: 100px;
+}
+
+.dnnModuleDigitalAssetsBackground ,
+.dnnModuleDigitalAssetsBackground *,
+.dnnModuleDigitalAssetsBackground *::after, 
+.dnnModuleDigitalAssetsBackground *::before{
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+  box-sizing:content-box;
+}
+.dnnModuleDigitalAssetsBackground caption{
+	padding: 0;
+}
+
+
+
+
+
+

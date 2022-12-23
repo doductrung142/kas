@@ -1,0 +1,116 @@
+/* 
+================================
+ Container Styles for DotNetNuke
+================================
+.
+
+
+/*-------------------------------------------------------------------------------*/
+.actions								 { width:10px;}
+.clear									 { clear:both;}
+.c_footer								 { padding-right:10px; text-align:right;}
+.dnntitle 								 {}
+.c_contentpane 							 { text-align:left; padding:2px 5px 0px 5px;}
+.ModuleTitle_MenuContainer				 { width:100px!important;}
+
+
+
+
+.Footer-Container01 .footer-title{
+	margin:0px 0px 25px;
+}
+.Footer-Container02 .footer-title{
+	border-bottom:1px solid rgba(255,255,255,0.2);
+	padding-bottom:9px;
+	position:relative;
+	margin-bottom:35px;
+}
+.Footer-Container02 .footer-title:after{
+	content:"";
+	border-bottom:2px solid;
+	width:30px;
+	position:absolute;
+	left:0;
+	bottom:-1px;
+}
+@media only screen and (max-width: 767px) {
+.Footer-Container01 .footer-title{
+	margin-bottom:15px;
+}
+.Footer-Container02 .footer-title{
+	margin-bottom:20px;
+}
+
+}
+.Footer-light-Container .dnntitle{
+	margin-bottom: 25px;
+}
+.Footer-light-Container .dnntitle h6{
+	color: #dddddd;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+.Footer-White-Container .dnntitle{
+	margin-bottom: 20px;
+}
+.Footer-White-Container .dnntitle h4{
+	color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0;
+}
+
+.Container-01{
+	border-bottom:1px solid #ebebeb;
+	margin-bottom: 40px;
+	padding-bottom: 45px;
+}
+.Container-01 .dnntitle{
+	margin-bottom: 30px;
+}
+.Container-01 .dnntitle h3{
+	color: #fd4ea5;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.4;
+	letter-spacing: 0;
+	margin: 0;
+}
+
+
+.DnnModule:last-child .Container-01{
+	border:none;
+	margin-bottom: 0
+}
+
+.H1-Container{
+	margin-bottom: 60px;
+}
+.H2-Container{
+	margin-bottom: 50px;
+}
+.H3-Container{
+	margin-bottom: 40px;
+}
+.H4-Container,
+.H5-Container,
+.H6-Container{
+	margin-bottom: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+kas.asia	TRUE	/	FALSE	1999999999	.ASPXANONYMOUS	AqLpXTLw_-wy-X52egfdeyAh1_ruTPCDLf8wE8sn1OvNnTyFoCVUCJatR8fZHrfo2h6VYnGcWlITNDvjVUBTuic9orxbxvqRdcePiF2Ac-U1BJv70
+kas.asia	TRUE	/	FALSE	1999999999	dnn_IsMobile	False
+kas.asia	TRUE	/	FALSE	1999999999	language	en-US
+

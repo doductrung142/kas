@@ -1,0 +1,225 @@
+.minilightbox-holder {
+	background: rgba(0, 0, 0, .8);
+	display: none;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	z-index: 1000000;
+}
+.minilightbox-close {
+	cursor: pointer;
+	position: absolute;
+	top: 32px;
+	right: 32px;
+	color: #fff;
+	font-weight: 700;
+	width: 48px;
+	height: 48px;
+	z-index: 100;
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 24 24'%3E %3Cpath stroke='%23FFFFFF'  d='M6.34314575 6.34314575L17.6568542 17.6568542M6.34314575 17.6568542L17.6568542 6.34314575' /%3E%3C/svg%3E");
+	background-size: 32px 32px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+.minilightbox-content {
+	align-items: center;
+	display: flex;
+	flex: 0 1 100%;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+	pointer-events: none;
+	-webkit-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
+.minilightbox-content.next-cont{
+	transform: translateX(100%);
+	opacity: 0;
+}
+.minilightbox-content.prev-cont{
+	transform: translateX(-100%);
+	opacity: 0;
+}
+
+
+.minilightbox-content > .box{
+	pointer-events: none;
+}
+.minilightbox-content > .box > *{
+	pointer-events: auto;
+}
+.minilightbox-content .lightbox-image{
+	max-width: 90vw;
+	max-height: 80vh;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	flex: 0 1 100%;
+	justify-content: center;	
+	flex-direction: column;
+} 
+.minilightbox-content .lightbox-image img{
+	max-width: 90vw;
+	max-height: 80vh;
+	vertical-align: middle;
+	border: 4px solid #ffffff;
+}
+
+ .minilightbox-content .lightbox-youtube,
+ .minilightbox-content .lightbox-vimeo,
+ .minilightbox-content .lightbox-html5,
+ .minilightbox-content .lightbox-map {
+    overflow: hidden;
+	max-width: 90vw;
+	max-height: 80vh;
+	width: 1200px;
+}   
+.minilightbox-content .box-responsive{
+	position: relative;
+	width: 100%;
+	padding-top: 56.25%;
+    height: 0;
+}
+
+
+
+ .minilightbox-content .lightbox-youtube iframe,
+ .minilightbox-content .lightbox-vimeo iframe,
+ .minilightbox-content .lightbox-map iframe,
+ .minilightbox-content .lightbox-html5 video{
+	position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 8px rgba(0,0,0,.6);
+    background: #000;
+}
+
+ 
+ 
+@-webkit-keyframes loading-rotate {
+    0% {
+        -webkit-transform: rotate(0);
+    }
+        100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes loading-rotate{
+    0% {
+        transform: rotate(0);
+    }
+        100% {
+        transform: rotate(360deg);
+    }
+}
+ .minilightbox-content.loading::after{
+	content: "";
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	border: 5px solid #fff;
+	border-top-color:#555;
+	border-left-color:#555;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -20px 0 0 -20px;
+	-webkit-animation: loading-rotate 0.7s infinite;
+	animation: loading-rotate 0.7s infinite;
+   }
+.minilightbox-mask{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.minilightbox-content > .box{
+	z-index: 1;
+	position: relative;
+}
+
+.minilightbox-holder .minilight-title{
+    color: #FFF;
+    margin-top: 24px;
+    border-radius: 25px;
+	padding: 4px 15px;
+	font-size: 18px;
+	font-weight:600;
+	position: absolute;
+    top: 100%;
+}
+
+.minilightbox-holder .minilightbox-prev, 
+.minilightbox-holder .minilightbox-next{
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    margin-left:0!important;
+    margin-right:0!important;
+	margin-top: -50px; 
+     z-index: 10;
+    cursor: pointer;
+}
+.minilightbox-holder .minilightbox-next{
+    right: 0;
+} 
+.minilightbox-holder .minilightbox-prev{
+    left: 0;
+}
+.minilightbox-holder .minilightbox-next.disabled,
+.minilightbox-holder .minilightbox-prev.disabled{
+	opacity: .2;
+	cursor: initial;
+}
+
+.minilightbox-holder .minilightbox-next span, 
+.minilightbox-holder .minilightbox-prev span{
+    width: 9px;
+    height: 9px;
+    margin: -4px 0 0 -13px;
+	 border-top: 1px solid currentColor;
+	 border-left: 1px solid currentColor;
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 transform: rotate(-45deg) translate3d(0,0,0);
+}
+.minilightbox-holder .minilightbox-next::after, 
+.minilightbox-holder .minilightbox-prev::after{
+	content: "";
+     width: 30px;
+	 border-bottom: 1px solid currentColor; 
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 margin: 0 0 0 -15px;
+}
+
+.minilightbox-holder .minilightbox-next span{
+    margin: -4px 0 0 4px;
+    transform: rotate(135deg) translate3d(0,0,0);
+}
+
+
+.minilightbox-content > .box.remove{
+	position: absolute;
+}

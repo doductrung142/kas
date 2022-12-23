@@ -1,0 +1,554 @@
+
+
+/*dng clipping*/
+@-webkit-keyframes clippingLeft{
+  0%  {
+    right:100%;
+    left: 0;
+  } 
+  45% {
+    right:0;
+    left: 0;
+  }
+  55% {
+    right:0;
+    left: 0;
+  }
+  100% {
+    left: 100%;
+    right:0;
+  }
+}
+@keyframes clippingLeft{
+  0%  {
+    right:100%;
+    left: 0;
+  } 
+  45% {
+    right:0;
+    left: 0;
+  }
+  55% {
+    right:0;
+    left: 0;
+  }
+  100% {
+    left: 100%;
+    right:0;
+  }
+}
+@-webkit-keyframes clippingRight{
+  0%  {
+    left: 100%;
+    right:0;
+  } 
+  45% {
+    right:0;
+    left: 0;
+  }
+  55% {
+    right:0;
+    left: 0;
+  }
+  100% {
+    right:100%;
+    left: 0;
+  }
+}
+@keyframes clippingRight{
+  0%  {
+    left: 100%;
+    right:0;
+  } 
+  45% {
+    right:0;
+    left: 0;
+  }
+  55% {
+    right:0;
+    left: 0;
+  }
+  100% {
+    right:100%;
+    left: 0;
+  }
+}
+@-webkit-keyframes clippingTop{
+  0%  {
+    bottom:100%;
+    top: 0;
+  } 
+  45% {
+    bottom:0;
+    top: 0;
+  }
+  55% {
+    bottom:0;
+    top: 0;
+  }
+  100% {
+    top: 100%;
+    bottom:0;
+  }
+}
+@keyframes clippingTop{
+  0%  {
+    bottom:100%;
+    top: 0;
+  } 
+  45% {
+    bottom:0;
+    top: 0;
+  }
+  55% {
+    bottom:0;
+    top: 0;
+  }
+  100% {
+    top: 100%;
+    bottom:0;
+  }
+}
+@-webkit-keyframes clippingBottom{
+  0%  {
+    top:100%;
+    bottom: 0;
+  } 
+  45% {
+    top:0;
+    bottom: 0;
+  }
+  55% {
+    top:0;
+    bottom: 0;
+  }
+  100% {
+    bottom: 100%;
+    top:0;
+  }
+}
+@keyframes clippingBottom{
+  0%  {
+    top:100%;
+    bottom: 0;
+  } 
+  45% {
+    top:0;
+    bottom: 0;
+  }
+  55% {
+    top:0;
+    bottom: 0;
+  }
+  100% {
+    bottom: 100%;
+    top:0;
+  }
+}
+@-webkit-keyframes clippingLeftOut{
+  0% {
+    right:0;
+    left: 0;
+  }
+  100% {
+    left: 100%;
+    right:0;
+  }
+}
+@keyframes clippingLeftOut{
+  0% {
+    right:0;
+    left: 0;
+  }
+  100% {
+    left: 100%;
+    right:0;
+  }
+}
+@-webkit-keyframes clippingRightOut{
+  0% {
+    right:0;
+    left: 0;
+  }
+  100% {
+    right:100%;
+    left: 0;
+  }
+}
+@keyframes clippingRightOut{
+  0% {
+    right:0;
+    left: 0;
+  }
+  100% {
+    right:100%;
+    left: 0;
+  }
+}
+@-webkit-keyframes clippingTopOut{
+  0% {
+    bottom:0;
+    top: 0;
+  }
+  100% {
+    top: 100%;
+    bottom:0;
+  }
+}
+@keyframes clippingTopOut{
+  0% {
+    bottom:0;
+    top: 0;
+  }
+  100% {
+    top: 100%;
+    bottom:0;
+  }
+}
+@-webkit-keyframes clippingBottomOut{
+  0% {
+    top:0;
+    bottom: 0;
+  }
+  100% {
+    bottom: 100%;
+    top:0;
+  }
+}
+
+@keyframes clippingBottomOut{
+  0% {
+    top:0;
+    bottom: 0;
+  }
+  100% {
+    bottom: 100%;
+    top:0;
+  }
+}
+@-webkit-keyframes clippingVisibilityOpacity{
+  0%  {
+    opacity: 0;
+  } 
+  54%{
+    opacity: 0;
+  }
+  55%{
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes clippingVisibilityOpacity{
+  0%  {
+    opacity: 0;
+  } 
+  54%{
+    opacity: 0;
+  }
+  55%{
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes clippingVisibility{
+  0%  {
+    visibility: hidden;
+  } 
+  54%{
+    visibility: hidden;
+  }
+  55%{
+    visibility: visible;
+  }
+  100% {
+    visibility: visible;
+  }
+}	
+  @keyframes clippingVisibility{
+  0%  {
+    visibility: hidden;
+  } 
+  54%{
+    visibility: hidden;
+  }
+  55%{
+    visibility: visible;
+  }
+  100% {
+    visibility: visible;
+  }
+}	
+  
+  .dng-clip{
+    position: relative;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: cubic-bezier(0.75, -0.02, 0.44, 1.33);
+    -webkit-animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.75, -0.02, 0.44, 1.33);
+    animation-fill-mode: forwards;
+    opacity: 1;
+  }
+  .dng-clip.clip-top,
+  .dng-clip.clip-right,
+  .dng-clip.clip-bottom,
+  .dng-clip.clip-left{
+    visibility: hidden;
+  }
+
+  .dng-clip.animated.clip-top,
+  .dng-clip.animated.clip-right,
+  .dng-clip.animated.clip-bottom,
+  .dng-clip.animated.clip-left{
+    -webkit-animation-name: clippingVisibility;
+    animation-name: clippingVisibility;
+  }
+  a.dng-clip,
+  span.dng-clip{
+    display: inline-block;
+  }
+  .dng-clip.no-animation.animated,
+  .dng-clip.no-animation > .dng-clipping-wrapper{
+    visibility: visible;
+    opacity: 1;
+  }	
+  .dng-clipping-wrapper{
+    display: block;
+  }
+  .dng-clip.clip-top > .dng-clipping-wrapper,
+  .dng-clip.clip-right > .dng-clipping-wrapper,
+  .dng-clip.clip-bottom > .dng-clipping-wrapper,
+  .dng-clip.clip-left > .dng-clipping-wrapper{
+    visibility: visible;
+    opacity: 0;
+  }
+  .dng-clip.clip-top.animated > .dng-clipping-wrapper,
+  .dng-clip.clip-right.animated > .dng-clipping-wrapper,
+  .dng-clip.clip-bottom.animated > .dng-clipping-wrapper,
+  .dng-clip.clip-left.animated > .dng-clipping-wrapper{
+    -webkit-animation-name: clippingVisibilityOpacity;
+    -webkit-animation-duration: inherit;
+    -webkit-animation-timing-function:inherit;
+    -webkit-animation-delay:inherit;
+    -webkit-animation-fill-mode:inherit;
+    animation-name: clippingVisibilityOpacity;
+    animation-duration: inherit;
+    animation-timing-function:inherit;
+    animation-delay:inherit;
+    animation-fill-mode:inherit;
+  }
+  
+  .dng-clip > .dng-clipping-shade{
+    position: absolute;
+    background: #000;
+    visibility: visible;
+    -webkit-animation-duration: inherit;
+    -webkit-animation-timing-function:inherit;
+    -webkit-animation-delay:inherit;
+    -webkit-animation-fill-mode:inherit;
+    animation-duration: inherit;
+    animation-timing-function:inherit;
+    animation-delay:inherit;
+    animation-fill-mode:inherit;
+    z-index: 998;
+  }
+  .dng-clip.clip-left.animated > .dng-clipping-shade{
+    top: 0;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    -webkit-animation-name: clippingLeft;
+    animation-name: clippingLeft;
+  }
+  .dng-clip.clip-right.animated > .dng-clipping-shade{
+    top: 0;
+    right: 0;
+    left: 100%;
+    bottom: 0;
+    -webkit-animation-name: clippingRight;
+    animation-name: clippingRight;
+  }
+  .dng-clip.clip-top.animated > .dng-clipping-shade{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 100%;		
+    -webkit-animation-name: clippingTop;
+    animation-name: clippingTop;
+  }
+  .dng-clip.clip-bottom.animated > .dng-clipping-shade{
+    right: 0;
+    left: 0;
+    top: 100%;
+    bottom: 0;
+    -webkit-animation-name: clippingBottom;
+    animation-name: clippingBottom;
+  }
+  .dng-clip.clip-left-out > .dng-clipping-shade,
+  .dng-clip.clip-right-out > .dng-clipping-shade,
+  .dng-clip.clip-top-out > .dng-clipping-shade,
+  .dng-clip.clip-bottom-out > .dng-clipping-shade{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .dng-clip.clip-left-out.animated > .dng-clipping-shade{
+    -webkit-animation-name: clippingLeftOut;
+    animation-name: clippingLeftOut;
+  }
+  .dng-clip.clip-right-out.animated > .dng-clipping-shade{
+    -webkit-animation-name: clippingRightOut;
+    animation-name: clippingRightOut;
+  }
+  .dng-clip.clip-top-out.animated > .dng-clipping-shade{
+    -webkit-animation-name: clippingTopOut;
+    animation-name: clippingTopOut;
+  }
+  .dng-clip.clip-bottom-out.animated > .dng-clipping-shade{
+    -webkit-animation-name: clippingBottomOut;
+    animation-name: clippingBottomOut;
+  }
+  
+  .clipping-back > .dng-clipping-shade{
+    z-index: -1;
+  }
+  
+  @-webkit-keyframes clippingTextLeft{
+    0%  {
+      -webkit-transform: translateX(-100%);
+      opacity: 1;
+    } 
+    100% {
+      -webkit-transform: translateY(0);
+      opacity: 1;
+    }
+  }
+ @keyframes clippingTextLeft{
+    0%  {
+      transform: translateX(-100%);
+      opacity: 1;
+    } 
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes clippingTextRight{
+    0%  {
+      -webkit-transform: translateX(100%);
+      opacity: 1;
+    } 
+    100% {
+      -webkit-transform: translateX(0);
+      opacity: 1;
+    }
+  }
+ 
+  @keyframes clippingTextRight{
+    0%  {
+      transform: translateX(100%);
+      opacity: 1;
+    } 
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes clippingTextTop{
+    0%  {
+      -webkit-transform: translateY(-100%);
+      opacity: 1;
+    } 
+    100% {
+      -webkit-transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes clippingTextTop{
+    0%  {
+      transform: translateY(-100%);
+      opacity: 1;
+    } 
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes clippingTextBottom{
+    0%  {
+      -webkit-transform: translateY(100%);
+      opacity: 1;
+    } 
+    100% {
+      -webkit-transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes clippingTextBottom{
+    0%  {
+      transform: translateY(100%);
+      opacity: 1;
+    } 
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+
+  .dng-clip-text{
+    overflow: hidden;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: cubic-bezier(0.49, 1.04, 1, 1);
+    -webkit-animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.49, 1.04, 1, 1);
+    animation-fill-mode: forwards;
+  }
+
+  .dng-clip-text > *:not(.dng-clipping-shade){
+    opacity: 0;
+  }
+  span.dng-clip-text,
+  a.dng-clip-text{
+    display: inline-block;
+  }
+  .dng-clip-text > *:not(.dng-clipping-shade){
+    -webkit-animation-duration: inherit;
+    -webkit-animation-timing-function:inherit;
+    -webkit-animation-delay:inherit;
+    -webkit-animation-fill-mode:inherit;
+    animation-duration: inherit;
+    animation-timing-function:inherit;
+    animation-delay:inherit;
+    animation-fill-mode:inherit;
+  }	
+  .dng-clip-text.clip-left.animated > *:not(.dng-clipping-shade){
+    -webkit-animation-name: clippingTextLeft;
+    animation-name: clippingTextLeft;
+  }
+  .dng-clip-text.clip-right.animated > *:not(.dng-clipping-shade){
+    -webkit-animation-name: clippingTextRight;
+    animation-name: clippingTextRight;
+  }
+  .dng-clip-text.clip-top.animated > *:not(.dng-clipping-shade){
+    -webkit-animation-name: clippingTextTop;
+    animation-name: clippingTextTop;
+  }
+  .dng-clip-text.clip-bottom.animated > *:not(.dng-clipping-shade){
+    -webkit-animation-name: clippingTextBottom;
+    animation-name: clippingTextBottom;
+  }
+
+
+
+
+
+
+  

@@ -1,0 +1,170 @@
+HTTrack3.49-2 launched on Fri, 23 Dec 2022 14:13:28 at https://kas.asia +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://kas.asia -O "/home/trung/websites/kas" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:21:10	Error: 	"Not Found" (404) at link https://kas.asia/"/Portals/0/ThemePluginPro/uploads/2021/10/12/POSTOTALTHIETBI.png" (from https://kas.asia/)
+14:21:10	Error: 	"Not Found" (404) at link https://kas.asia/"/Portals/0/ThemePluginPro/uploads/2021/10/11/SMAC CLOUD.png" (from https://kas.asia/)
+14:21:10	Error: 	"Not Found" (404) at link https://kas.asia/"/Portals/0/ThemePluginPro/uploads/2021/10/11/KASA (2 (from https://kas.asia/)
+14:21:10	Error: 	"Not Found" (404) at link https://kas.asia/"/Portals/0/ThemePluginPro/uploads/2021/10/11/kaso.png" (from https://kas.asia/)
+14:21:10	Error: 	"Not Found" (404) at link https://kas.asia/"/Portals/0/ThemePluginPro/uploads/2021/10/11/fb bot.png" (from https://kas.asia/)
+14:21:10	Error: 	"Not Found" (404) at link https://kas.asia/"/Portals/0/ThemePluginPro/uploads/2021/10/11/zalo.png" (from https://kas.asia/)
+14:21:10	Error: 	"Not Found" (404) at link https://kas.asia/"/Portals/0/ThemePluginPro/uploads/2021/10/11/o2o.png" (from https://kas.asia/)
+14:21:10	Error: 	"Not Found" (404) at link https://kas.asia/"/Portals/0/ThemePluginPro/uploads/2021/8/24/background.png" (from https://kas.asia/)
+14:21:10	Error: 	"Not Found" (404) at link https://kas.asia/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg01.png" (from https://kas.asia/)
+14:22:06	Error: 	"Not Found" (404) at link https://kas.asia/POST (from https://kas.asia/WebResource.axd?d=pynGkmcFUV3oBtNeuL25yd3iKUsoqs18u1C9i46pHE21JJmquXYOQ4NX2WU1&t=637934396904124565)
+14:22:06	Error: 	"Not Found" (404) at link https://kas.asia/Firefox/ (from https://kas.asia/ScriptResource.axd?d=NJmAwtEo3IoZL6Wa-ZR9kh6WnljfFi7wk8pAZsWBvlmz_J0RBFFFsG5AyiFRKonCY5h0kE0uwuATkx2nPjDv02s9UzhghxYpZzcowd0hKTMCLlLz9PGqctfoh-R4RyXidDPJzg2&t=ffffffffe6d5a9ac)
+14:22:06	Error: 	"Not Found" (404) at link https://kas.asia/AppleWebKit/ (from https://kas.asia/ScriptResource.axd?d=NJmAwtEo3IoZL6Wa-ZR9kh6WnljfFi7wk8pAZsWBvlmz_J0RBFFFsG5AyiFRKonCY5h0kE0uwuATkx2nPjDv02s9UzhghxYpZzcowd0hKTMCLlLz9PGqctfoh-R4RyXidDPJzg2&t=ffffffffe6d5a9ac)
+14:22:06	Error: 	"Not Found" (404) at link https://kas.asia/Opera/ (from https://kas.asia/ScriptResource.axd?d=NJmAwtEo3IoZL6Wa-ZR9kh6WnljfFi7wk8pAZsWBvlmz_J0RBFFFsG5AyiFRKonCY5h0kE0uwuATkx2nPjDv02s9UzhghxYpZzcowd0hKTMCLlLz9PGqctfoh-R4RyXidDPJzg2&t=ffffffffe6d5a9ac)
+14:22:09	Error: 	"Not Found" (404) at link https://kas.asia/"/Portals/_default/ContentBuilder/kella-page/Creative5/creative5-section03-bg.jpg" (from https://kas.asia/KAS)
+14:22:12	Error: 	"Not Found" (404) at link https://kas.asia/-Giải-pháp/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg01.png" (from https://kas.asia/-Giải-pháp/Giải-pháp-POS-ngành-F-B)
+14:22:12	Error: 	"Not Found" (404) at link https://kas.asia/-Giải-pháp/"/Portals/_default/ContentBuilder/kella-page/APP/app-banner-bg.png" (from https://kas.asia/-Giải-pháp/Giải-pháp-POS-ngành-Retail)
+14:24:27	Error: 	"Not Found" (404) at link https://kas.asia/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg03.png" (from https://kas.asia/Khách-hàng)
+14:25:29	Error: 	"Not Found" (404) at link https://kas.asia/"/Portals/_default/ContentBuilder/kella-page/Creative3/creative3-section10-bg.png" (from https://kas.asia/Bản-tin)
+14:26:39	Error: 	"Not Found" (404) at link https://kas.asia/"/Portals/0/ThemePluginPro/uploads/2021/8/15/11_1.png" (from https://kas.asia/Liên-hệ)
+14:26:39	Error: 	"Not Found" (404) at link https://kas.asia/"/Portals/_default/ContentBuilder/kella-page/Contact02/contact02-bg02.jpg" (from https://kas.asia/Liên-hệ)
+14:28:54	Error: 	"Not Found" (404) at link https://kas.asia/en/"/Portals/0/ThemePluginPro/uploads/2021/8/24/background.png" (from https://kas.asia/en/)
+14:28:54	Error: 	"Not Found" (404) at link https://kas.asia/en/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg01.png" (from https://kas.asia/en/)
+14:29:26	Error: 	"Not Found" (404) at link https://kas.asia/en/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg03.png" (from https://kas.asia/en/)
+14:29:26	Error: 	"Not Found" (404) at link https://kas.asia/en/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg04.png" (from https://kas.asia/en/)
+14:29:26	Error: 	"Not Found" (404) at link https://kas.asia/en/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg06.png" (from https://kas.asia/en/)
+14:29:28	Error: 	"Not Found" (404) at link https://kas.asia/vi/"/Portals/0/ThemePluginPro/uploads/2021/8/21/Công ty.png" (from https://kas.asia/vi/KAS)
+14:29:28	Error: 	"Not Found" (404) at link https://kas.asia/vi/"/Portals/_default/ContentBuilder/kella-page/Creative5/creative5-section03-bg.jpg" (from https://kas.asia/vi/KAS)
+14:29:28	Error: 	"Not Found" (404) at link https://kas.asia/vi/"/Portals/_default/ContentBuilder/kella-page/ourteam-single02/teamsingle02-bg03.png" (from https://kas.asia/vi/KAS)
+14:29:28	Error: 	"Not Found" (404) at link https://kas.asia/vi-vn/KAS (from https://kas.asia/vi/KAS)
+14:29:28	Error: 	"Not Found" (404) at link https://kas.asia/vi-vn/-Giải-pháp/Smac-Cloud (from https://kas.asia/vi/KAS)
+14:29:28	Error: 	"Not Found" (404) at link https://kas.asia/vi-vn/Thiết-bị/POS-1-màn-hình (from https://kas.asia/vi/KAS)
+14:29:28	Error: 	"Not Found" (404) at link https://kas.asia/vi-vn/Đối-tác (from https://kas.asia/vi/KAS)
+14:29:28	Error: 	"Not Found" (404) at link https://kas.asia/vi-vn/Khách-hàng (from https://kas.asia/vi/KAS)
+14:29:28	Error: 	"Not Found" (404) at link https://kas.asia/vi-vn/Bản-tin (from https://kas.asia/vi/KAS)
+14:29:30	Error: 	"Not Found" (404) at link https://kas.asia/vi/-Giải-pháp/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg01.png" (from https://kas.asia/vi/-Giải-pháp/Smac-Cloud)
+14:29:30	Error: 	"Not Found" (404) at link https://kas.asia/vi/-Giải-pháp/"/Portals/_default/ContentBuilder/kella-page/APP/app-banner-bg.png" (from https://kas.asia/vi/-Giải-pháp/Smac-Cloud)
+14:29:30	Error: 	"Not Found" (404) at link https://kas.asia/vi/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg03.png" (from https://kas.asia/vi/Khách-hàng)
+14:29:30	Error: 	"Not Found" (404) at link https://kas.asia/vi/"/Portals/_default/ContentBuilder/kella-page/Creative3/creative3-section10-bg.png" (from https://kas.asia/vi/Bản-tin)
+14:29:30	Warning: 	Link https://kas.asia/Login?returnurl=%2fCh%C3%ADnh-s%C3%A1ch-ho%E1%BA%A1t-%C4%91%E1%BB%99ng not scanned (follow robots meta tag)
+14:29:30	Error: 	"Not Found" (404) at link https://kas.asia/Chính-sách-hoạt-động/"/Portals/_default/ContentBuilder/kella-page/Portfolio/portfolio-bg01.png" (from https://kas.asia/Chính-sách-hoạt-động/Chính-sách-bảo-hành)
+14:29:30	Warning: 	Link https://kas.asia/Login?returnurl=%2fV%C4%83n-ph%C3%B2ng-KAS not scanned (follow robots meta tag)
+14:29:30	Error: 	"Not Found" (404) at link https://kas.asia/Văn-phòng-KAS/"/Portals/_default/ContentBuilder/kella-page/Creative3/creative03-section12-bg.jpg" (from https://kas.asia/Văn-phòng-KAS/Trụ-sở-chính-tại-TpHCM)
+14:29:30	Error: 	"Not Found" (404) at link https://kas.asia/en/"/Portals/0/ThemePluginPro/uploads/2021/8/21/Công ty.png" (from https://kas.asia/en/KAS)
+14:29:30	Error: 	"Not Found" (404) at link https://kas.asia/en/"/Portals/_default/ContentBuilder/kella-page/Creative5/creative5-section03-bg.jpg" (from https://kas.asia/en/KAS)
+14:29:30	Error: 	"Not Found" (404) at link https://kas.asia/en/"/Portals/_default/ContentBuilder/kella-page/ourteam-single02/teamsingle02-bg03.png" (from https://kas.asia/en/KAS)
+14:30:13	Error: 	"Not Found" (404) at link https://kas.asia/vi-vn/Thiết-bị/POS-Android-cầm-tay/Màn-POS-cầm-tay-B08 (from https://kas.asia/en/Hardwares/Android-Portable-POS)
+14:30:13	Error: 	"Not Found" (404) at link https://kas.asia/vi-vn/Thiết-bị/POS-Android-cầm-tay/Máy-POS-cầm-tay-SP01 (from https://kas.asia/en/Hardwares/Android-Portable-POS)
+14:30:48	Error: 	"Not Found" (404) at link https://kas.asia/en/"/Portals/_default/ContentBuilder/kella-page/Creative3/creative3-section10-bg.png" (from https://kas.asia/en/News)
+14:30:58	Error: 	"Not Found" (404) at link https://kas.asia/B%E1%BA%A3n-tin/"/Portals/_default/ContentBuilder/kella-page/APP/app-banner-bg.png" (from https://kas.asia/B%E1%BA%A3n-tin/Le-Vinh-Danh-Top-100)
+14:30:58	Error: 	"Not Found" (404) at link https://kas.asia/B%E1%BA%A3n-tin/"/Portals/_default/ContentBuilder/kella-page/Homes-Business/business-section02-bg.jpg" (from https://kas.asia/B%E1%BA%A3n-tin/Le-Vinh-Danh-Top-100)
+14:30:58	Error: 	"Not Found" (404) at link https://kas.asia/vi/Bản-tin/"/Portals/_default/ContentBuilder/kella-page/APP/app-banner-bg.png" (from https://kas.asia/vi/Bản-tin/03)
+14:30:58	Error: 	"Not Found" (404) at link https://kas.asia/en/"/Portals/0/ThemePluginPro/uploads/2021/8/15/11_1.png" (from https://kas.asia/en/Contact)
+14:30:58	Error: 	"Not Found" (404) at link https://kas.asia/en/"/Portals/_default/ContentBuilder/kella-page/Contact02/contact02-bg02.jpg" (from https://kas.asia/en/Contact)
+14:30:58	Error: 	"Not Found" (404) at link https://kas.asia/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg04.png" (from https://kas.asia/en)
+14:30:58	Error: 	"Not Found" (404) at link https://kas.asia/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg06.png" (from https://kas.asia/en)
+14:31:03	Error: 	"Not Found" (404) at link https://kas.asia/en/Solutions/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg02.png" (from https://kas.asia/en/Solutions/Kaso)
+14:31:06	Error: 	"Not Found" (404) at link https://kas.asia/en/Solutions/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg01.png" (from https://kas.asia/en/Solutions/Kasa)
+14:31:06	Error: 	"Not Found" (404) at link https://kas.asia/en/Solutions/"/Portals/_default/ContentBuilder/kella-page/APP/app-banner-bg.png" (from https://kas.asia/en/Solutions/Kasa)
+14:31:14	Error: 	"Not Found" (404) at link https://kas.asia/en/Solutions/"/Portals/0/ThemePluginPro/uploads/2021/8/19/CALL CENTER.jpg" (from https://kas.asia/en/Solutions/Call-Center)
+14:31:23	Error: 	"Not Found" (404) at link https://kas.asia/en/Solutions/"/Portals/_default/ContentBuilder/kella-page/Homes-Business/business-section01-bg.jpg" (from https://kas.asia/en/Solutions/POS-for-Spa-chain)
+14:31:27	Error: 	"Not Found" (404) at link https://kas.asia/en/KAS/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg06.png" (from https://kas.asia/en/KAS/Q-A)
+14:31:44	Error: 	"Not Found" (404) at link https://kas.asia/en/News/"/Portals/_default/ContentBuilder/kella-page/APP/app-banner-bg.png" (from https://kas.asia/en/News/01)
+14:31:44	Error: 	"Not Found" (404) at link https://kas.asia/Bản-tin/"/Portals/_default/ContentBuilder/kella-page/APP/app-banner-bg.png" (from https://kas.asia/Bản-tin/Le-Vinh-Danh-Top-100)
+14:31:44	Error: 	"Not Found" (404) at link https://kas.asia/Bản-tin/"/Portals/_default/ContentBuilder/kella-page/Homes-Business/business-section02-bg.jpg" (from https://kas.asia/Bản-tin/Le-Vinh-Danh-Top-100)
+14:31:44	Error: 	"Not Found" (404) at link https://kas.asia/-Giải-pháp/POS-cho-mô-hình-nhỏ/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg02.png" (from https://kas.asia/-Giải-pháp/POS-cho-mô-hình-nhỏ/KASO)
+14:31:44	Error: 	"Not Found" (404) at link https://kas.asia/-Giải-pháp/POS-cho-mô-hình-nhỏ/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg01.png" (from https://kas.asia/-Giải-pháp/POS-cho-mô-hình-nhỏ/KASA)
+14:31:44	Error: 	"Not Found" (404) at link https://kas.asia/-Giải-pháp/POS-cho-mô-hình-nhỏ/"/Portals/_default/ContentBuilder/kella-page/APP/app-banner-bg.png" (from https://kas.asia/-Giải-pháp/POS-cho-mô-hình-nhỏ/KASA)
+14:31:45	Error: 	"Not Found" (404) at link https://kas.asia/-Giải-pháp/Giải-pháp-truyền-thông/"/Portals/0/ThemePluginPro/uploads/2021/8/19/CALL CENTER.jpg" (from https://kas.asia/-Giải-pháp/Giải-pháp-truyền-thông/Call-Center)
+14:31:46	Error: 	"Not Found" (404) at link https://kas.asia/-Giải-pháp/Giải-pháp-cho-mô-hình-lớn/"/Portals/_default/ContentBuilder/kella-page/Homes-Business/business-section01-bg.jpg" (from https://kas.asia/-Giải-pháp/Giải-pháp-cho-mô-hình-lớn/POS-cho-chuỗi-Spa)
+14:31:46	Error: 	"Not Found" (404) at link https://kas.asia/-Giải-pháp/Giải-pháp-cho-mô-hình-lớn/"/Portals/_default/ContentBuilder/kella-page/APP/app-banner-bg.png" (from https://kas.asia/-Giải-pháp/Giải-pháp-cho-mô-hình-lớn/POS-cho-chuỗi-Spa)
+14:31:46	Error: 	"Not Found" (404) at link https://kas.asia/-Giải-pháp/Giải-pháp-cho-mô-hình-lớn/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg01.png" (from https://kas.asia/-Giải-pháp/Giải-pháp-cho-mô-hình-lớn/POS-cho-chuỗi-F-B)
+14:32:17	Warning: 	Retry after error -5 (Unable to get server's address: No address associated with hostname) at link https://certify.alexametrics.com/atrk.gif?account=sIiqx1A8O820xQ (from https://kas.asia/)
+14:32:21	Error: 	"Not Found" (404) at link https://kas.asia/Portals/0/icon logo KAS.png?v=4 (from https://kas.asia/)
+14:37:33	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://kas.asia/WebResource.axd?d=pynGkmcFUV3oBtNeuL25yd3iKUsoqs18u1C9i46pHE21JJmquXYOQ4NX2WU1&t=637934396904124565
+14:37:53	Warning: 	HTML file (86375 bytes) retransferred due to lack of cache: https://kas.asia/KAS
+14:37:57	Error: 	"" (404) at link https://kas.asia/"/Portals/0/ThemePluginPro/uploads/2021/10/12/POSTOTALTHIETBI.png" (from https://kas.asia/)
+14:37:57	Warning: 	HTML file (104597 bytes) retransferred due to lack of cache: https://kas.asia/vi/KAS
+14:37:58	Error: 	"Not Found" (404) at link https://kas.asia/MicrosoftAjaxWebForms.js (from https://kas.asia/ScriptResource.axd?d=dwY9oWetJoL7g-CPOGO5eHLgRFSrQcom_92xYkA2GPgsEwPXfn76JjD2yRVCTX2y0iQCLqO9n9Vq7GLipqX9oJWUxWS2Ofls0fxd--btBya0fWeT-Z9cAZtXWaE6yRgUgy0ffHL1UUhDS0I-0&t=ffffffffe6d5a9ac)
+14:37:58	Error: 	"Not Found" (404) at link https://kas.asia/MicrosoftAjaxSerialization.js (from https://kas.asia/ScriptResource.axd?d=dwY9oWetJoL7g-CPOGO5eHLgRFSrQcom_92xYkA2GPgsEwPXfn76JjD2yRVCTX2y0iQCLqO9n9Vq7GLipqX9oJWUxWS2Ofls0fxd--btBya0fWeT-Z9cAZtXWaE6yRgUgy0ffHL1UUhDS0I-0&t=ffffffffe6d5a9ac)
+14:37:58	Error: 	"Not Found" (404) at link https://kas.asia/MicrosoftAjaxNetwork.js (from https://kas.asia/ScriptResource.axd?d=dwY9oWetJoL7g-CPOGO5eHLgRFSrQcom_92xYkA2GPgsEwPXfn76JjD2yRVCTX2y0iQCLqO9n9Vq7GLipqX9oJWUxWS2Ofls0fxd--btBya0fWeT-Z9cAZtXWaE6yRgUgy0ffHL1UUhDS0I-0&t=ffffffffe6d5a9ac)
+14:37:59	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://kas.asia/DesktopModules/DNNGo_ThemePluginPro/Resource_Service.aspx?Token=ServiceWebpConvert&PortalId=0&TabId=371&&ModuleId=
+14:37:59	Error: 	"" (404) at link https://kas.asia/-Giải-pháp/"/Portals/_default/ContentBuilder/kella-page/APP/app-banner-bg.png" (from https://kas.asia/-Giải-pháp/Giải-pháp-POS-ngành-Retail)
+14:38:00	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://kas.asia/DesktopModules/DNNGo_ThemePluginPro/Resource_Service.aspx?Token=ServiceWebpConvert&PortalId=0&TabId=372&&ModuleId=
+14:38:00	Warning: 	HTML file (130388 bytes) retransferred due to lack of cache: https://kas.asia/Thiết-bị/Máy-POS/POS-01-màn-hình/Máy-POS-SGT-664-J1900
+14:38:01	Warning: 	HTML file (93847 bytes) retransferred due to lack of cache: https://kas.asia/Thiết-bị/Máy-POS/POS-02-màn-hình/Máy-POS-PONTUS-CORE-I5
+14:38:02	Warning: 	HTML file (128992 bytes) retransferred due to lack of cache: https://kas.asia/Thiết-bị/Máy-POS/Màn-hình-cảm-ứng/Màn-hình-CD-101
+14:38:03	Warning: 	HTML file (94267 bytes) retransferred due to lack of cache: https://kas.asia/Thiết-bị/Máy-POS/POS-Android-cầm-tay/Máy-POS-cầm-tay-SP01
+14:38:04	Warning: 	HTML file (94298 bytes) retransferred due to lack of cache: https://kas.asia/Thiết-bị/Máy-POS/POS-Android-cầm-tay/-Máy-POS-cầm-tay-SUNMI-V1S
+14:38:05	Warning: 	HTML file (95650 bytes) retransferred due to lack of cache: https://kas.asia/Thiết-bị/Máy-POS/POS-Android-cầm-tay/-Máy-POS-cầm-tay-IMIN-M2
+14:38:06	Warning: 	HTML file (96475 bytes) retransferred due to lack of cache: https://kas.asia/Thiết-bị/Máy-in/Máy-in-bill/Màn-in-hóa-đơn-ZYWELL-808
+14:38:07	Warning: 	HTML file (94827 bytes) retransferred due to lack of cache: https://kas.asia/Thiết-bị/Các-thiết-bị-khác/Két-tiền/Ngăn-kéo-đựng-tiền-CASH-DRAWER
+14:38:08	Warning: 	HTML file (129511 bytes) retransferred due to lack of cache: https://kas.asia/Thiết-bị/Các-thiết-bị-khác/Két-tiền/Két-đựng-tiền-5-ngăn
+14:38:09	Warning: 	HTML file (93550 bytes) retransferred due to lack of cache: https://kas.asia/Thiết-bị/Các-thiết-bị-khác/Xem-thêm/Cân-điện-tử-VIBRA-TPS30
+14:38:10	Warning: 	HTML file (96217 bytes) retransferred due to lack of cache: https://kas.asia/vi/Đối-tác/Grab-Food
+14:38:11	Warning: 	HTML file (89707 bytes) retransferred due to lack of cache: https://kas.asia/vi/Đối-tác/Zalo-OA
+14:38:12	Warning: 	HTML file (89706 bytes) retransferred due to lack of cache: https://kas.asia/vi/Đối-tác/Facebook-Fanpage
+14:38:13	Warning: 	HTML file (89899 bytes) retransferred due to lack of cache: https://kas.asia/vi/Đối-tác/TiKi
+14:38:14	Warning: 	HTML file (91386 bytes) retransferred due to lack of cache: https://kas.asia/vi/Đối-tác/Shopee
+14:38:15	Warning: 	HTML file (83658 bytes) retransferred due to lack of cache: https://kas.asia/vi/Đối-tác/Lazada
+14:38:16	Warning: 	HTML file (83445 bytes) retransferred due to lack of cache: https://kas.asia/vi/Đối-tác/VNPay
+14:38:17	Warning: 	HTML file (84337 bytes) retransferred due to lack of cache: https://kas.asia/vi/Đối-tác/MoMo
+14:38:18	Warning: 	HTML file (86817 bytes) retransferred due to lack of cache: https://kas.asia/vi/Đối-tác/GrabExpress
+14:38:19	Warning: 	HTML file (83355 bytes) retransferred due to lack of cache: https://kas.asia/vi/Đối-tác/Ahamove
+14:38:20	Warning: 	HTML file (84288 bytes) retransferred due to lack of cache: https://kas.asia/vi/Đối-tác/GHN
+14:38:21	Warning: 	HTML file (83707 bytes) retransferred due to lack of cache: https://kas.asia/vi/Đối-tác/Omicall
+14:38:22	Warning: 	HTML file (84797 bytes) retransferred due to lack of cache: https://kas.asia/vi/Đối-tác/Stringee
+14:38:23	Warning: 	HTML file (83812 bytes) retransferred due to lack of cache: https://kas.asia/vi/Đối-tác/Kaipass
+14:38:24	Error: 	"" (404) at link https://kas.asia/vi/-Giải-pháp/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg01.png" (from https://kas.asia/vi/-Giải-pháp/Smac-Cloud)
+14:38:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://kas.asia/DesktopModules/DNNGo_ThemePluginPro/Resource_Service.aspx?Token=ServiceWebpConvert&PortalId=0&TabId=359&&ModuleId=
+14:38:26	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://kas.asia/DesktopModules/DNNGo_ThemePluginPro/Resource_Service.aspx?Token=ServiceWebpConvert&PortalId=0&TabId=360&&ModuleId=
+14:38:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://kas.asia/DesktopModules/DNNGo_ThemePluginPro/Resource_Service.aspx?Token=ServiceWebpConvert&PortalId=0&TabId=361&&ModuleId=
+14:38:27	Warning: 	HTML file (89184 bytes) retransferred due to lack of cache: https://kas.asia/en/Hardwares/POS-Dual-Screen/PONTUS-CORE-I5
+14:38:28	Warning: 	HTML file (92050 bytes) retransferred due to lack of cache: https://kas.asia/en/Hardwares/POS-Dual-Screen/0090-J1900
+14:38:29	Warning: 	HTML file (89189 bytes) retransferred due to lack of cache: https://kas.asia/en/Hardwares/POS-Dual-Screen/SGT-664-J1900
+14:38:30	Warning: 	HTML file (93297 bytes) retransferred due to lack of cache: https://kas.asia/en/Hardwares/POS-Dual-Screen/E5-CORE-I5
+14:38:32	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://kas.asia/DesktopModules/DNNGo_ThemePluginPro/Resource_Service.aspx?Token=ServiceWebpConvert&PortalId=0&TabId=246&&ModuleId=
+14:38:32	Warning: 	HTML file (91109 bytes) retransferred due to lack of cache: https://kas.asia/en/Hardwares/Receipt-Printer/CODESOFT-TP-3250IIL
+14:38:34	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://kas.asia/DesktopModules/DNNGo_ThemePluginPro/Resource_Service.aspx?Token=ServiceWebpConvert&PortalId=0&TabId=104&&ModuleId=
+14:38:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://kas.asia/DesktopModules/DNNGo_ThemePluginPro/Resource_Service.aspx?Token=ServiceWebpConvert&PortalId=0&TabId=108&&ModuleId=
+14:38:36	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://kas.asia/DesktopModules/DNNGo_ThemePluginPro/Resource_Service.aspx?Token=ServiceWebpConvert&PortalId=0&TabId=119&&ModuleId=
+14:38:37	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://kas.asia/DesktopModules/DNNGo_ThemePluginPro/Resource_Service.aspx?Token=ServiceWebpConvert&PortalId=0&TabId=120&&ModuleId=
+14:38:38	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://kas.asia/DesktopModules/DNNGo_ThemePluginPro/Resource_Service.aspx?Token=ServiceWebpConvert&PortalId=0&TabId=223&&ModuleId=
+14:38:38	Error: 	"" (404) at link https://kas.asia/en/Solutions/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg02.png" (from https://kas.asia/en/Solutions/Kaso)
+14:38:38	Error: 	"" (404) at link https://kas.asia/en/Solutions/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg01.png" (from https://kas.asia/en/Solutions/Kasa)
+14:38:38	Error: 	"" (404) at link https://kas.asia/en/Solutions/"/Portals/_default/ContentBuilder/kella-page/APP/app-banner-bg.png" (from https://kas.asia/en/Solutions/Kasa)
+14:38:39	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://kas.asia/DesktopModules/DNNGo_ThemePluginPro/Resource_Service.aspx?Token=ServiceWebpConvert&PortalId=0&TabId=229&&ModuleId=
+14:38:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://kas.asia/DesktopModules/DNNGo_ThemePluginPro/Resource_Service.aspx?Token=ServiceWebpConvert&PortalId=0&TabId=230&&ModuleId=
+14:38:41	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://kas.asia/DesktopModules/DNNGo_ThemePluginPro/Resource_Service.aspx?Token=ServiceWebpConvert&PortalId=0&TabId=232&&ModuleId=
+14:38:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://kas.asia/DesktopModules/DNNGo_ThemePluginPro/Resource_Service.aspx?Token=ServiceWebpConvert&PortalId=0&TabId=233&&ModuleId=
+14:38:43	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://kas.asia/DesktopModules/DNNGo_ThemePluginPro/Resource_Service.aspx?Token=ServiceWebpConvert&PortalId=0&TabId=234&&ModuleId=
+14:38:44	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://kas.asia/DesktopModules/DNNGo_ThemePluginPro/Resource_Service.aspx?Token=ServiceWebpConvert&PortalId=0&TabId=235&&ModuleId=
+14:38:44	Error: 	"Not Found" (404) at link https://kas.asia/en/images/page/business-service-img02.jpg (from https://kas.asia/en/Solutions/POS-for-Spa-chain)
+14:38:44	Error: 	"" (404) at link https://kas.asia/en/Solutions/"/Portals/_default/ContentBuilder/kella-page/Homes-Business/business-section01-bg.jpg" (from https://kas.asia/en/Solutions/POS-for-Spa-chain)
+14:38:44	Error: 	"Not Found" (404) at link https://kas.asia/shared/apple-touch-icon.png (from https://kas.asia/shared/pos?source=WEBSITE)
+14:38:57	Error: 	"Not Found" (404) at link https://kas.pro.vn/images/media/5f09a18485f88039f812c92c.jpg (from https://kas.asia/shared/pos?source=WEBSITE)
+14:38:57	Error: 	"Not Found" (404) at link https://kas.pro.vn/images/media/5f09a18485f88039f812c93c.jpg (from https://kas.asia/shared/pos?source=WEBSITE)
+14:38:57	Error: 	"Not Found" (404) at link https://kas.pro.vn/images/media/5f09a18385f88039f812c928.jpg (from https://kas.asia/shared/pos?source=WEBSITE)
+14:38:57	Error: 	"" (404) at link https://kas.asia/-Giải-pháp/POS-cho-mô-hình-nhỏ/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg02.png" (from https://kas.asia/-Giải-pháp/POS-cho-mô-hình-nhỏ/KASO)
+14:38:58	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://kas.asia/DesktopModules/DNNGo_ThemePluginPro/Resource_Service.aspx?Token=ServiceWebpConvert&PortalId=0&TabId=42&&ModuleId=
+14:38:58	Error: 	"Not Found" (404) at link https://kas.asia/-Giải-pháp/images/page/business-service-img02.jpg (from https://kas.asia/-Giải-pháp/Giải-pháp-cho-mô-hình-lớn/POS-cho-chuỗi-Spa)
+14:38:58	Error: 	"" (404) at link https://kas.asia/-Giải-pháp/Giải-pháp-cho-mô-hình-lớn/"/Portals/_default/ContentBuilder/kella-page/saas/saas-bg01.png" (from https://kas.asia/-Giải-pháp/Giải-pháp-cho-mô-hình-lớn/POS-cho-chuỗi-F-B)
+14:38:58	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://certify.alexametrics.com/atrk.gif?account=sIiqx1A8O820xQ (from https://kas.asia/)
+14:39:03	Error: 	"Bad Request" (400) at link https://kas.asia/chrome-extension:// (from https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js)
+14:39:03	Error: 	"Bad Request" (400) at link https://kas.asia/^([^:/? (from https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js)
+14:39:03	Error: 	"Not Found" (404) at link https://kas.asia/restserver.php (from https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js)
+14:39:03	Error: 	"Not Found" (404) at link https://kas.asia/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ (from https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js)
+14:39:03	Error: 	"Not Found" (404) at link https://kas.asia/GET (from https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js)
+14:39:03	Error: 	"Not Found" (404) at link https://kas.asia/dialog/ (from https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js)
+14:39:03	Error: 	"Not Found" (404) at link https://kas.asia/LiveChatEvent/ (from https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js)
+14:39:03	Error: 	"Not Found" (404) at link https://kas.asia/rsrc.php/ (from https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js)
+14:39:03	Error: 	"Not Found" (404) at link https://kas.asia/Resources/images/arrow-right-white.png (from https://kas.asia/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=182)
+14:39:03	Error: 	"Not Found" (404) at link https://kas.asia/shared/Content/fonts/glyphicons-halflings-regular.eot (from https://kas.asia/shared/Content/SharedApp/plugin.css)
+14:39:03	Error: 	"Not Found" (404) at link https://kas.asia/shared/Content/fonts/glyphicons-halflings-regular.eot? (from https://kas.asia/shared/Content/SharedApp/plugin.css)
+14:39:03	Error: 	"Not Found" (404) at link https://kas.asia/shared/Content/fonts/glyphicons-halflings-regular.woff2 (from https://kas.asia/shared/Content/SharedApp/plugin.css)
+14:39:03	Error: 	"Not Found" (404) at link https://kas.asia/shared/Content/fonts/glyphicons-halflings-regular.woff (from https://kas.asia/shared/Content/SharedApp/plugin.css)
+14:39:03	Error: 	"Not Found" (404) at link https://kas.asia/shared/Content/fonts/glyphicons-halflings-regular.ttf (from https://kas.asia/shared/Content/SharedApp/plugin.css)
+14:39:03	Error: 	"Not Found" (404) at link https://kas.asia/shared/Content/fonts/glyphicons-halflings-regular.svg (from https://kas.asia/shared/Content/SharedApp/plugin.css)
+14:39:03	Error: 	"Not Found" (404) at link https://kas.asia/shared/Content/fonts/fontawesome-webfont.ttf?v=4.7.0 (from https://kas.asia/shared/Content/SharedApp/plugin.css)
+14:39:03	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://certify.alexametrics.com/atrk.gif?account=sIiqx1A8O820xQ (from https://kas.asia/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 25 minutes 35 seconds : 1079 links scanned, 1213 files written (344434572 bytes overall) [178623626 bytes received at 116367 bytes/sec], 30393493 bytes transferred using HTTP compression in 342 files, ratio 51%
+(105 errors, 54 warnings, 0 messages)

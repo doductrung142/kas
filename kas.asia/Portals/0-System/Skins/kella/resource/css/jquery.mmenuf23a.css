@@ -1,0 +1,85 @@
+.dng-mobilemenu.mobile_menu{
+  left:0;
+  right:0;
+  top:0;
+  max-width:inherit;
+  min-width: inherit;
+  width: 100%;
+  z-index: 1010;
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  -webkit-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  display: block;
+  padding-top: 64px;
+}
+.mobile_menu_show .dng-mobilemenu{
+  visibility:visible;
+  opacity:1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.dng-mobilemenu .mobile-menu-icon{
+  position: absolute;
+  top: 19px;
+  left: 3px;
+  color: #FFF;
+}
+
+
+.dng-mobilemenu .panel-wrap .current a span,
+.dng-mobilemenu .panel-wrap .subcurrent a span{
+  font-weight:600!important;
+}
+.header-mobile .dg-menu-anime{
+
+}
+
+.dng-mobilemenu .mobile-menu-icon{
+  -webkit-transition:margin 0.4s ease-in-out;
+	transition:margin 0.4s ease-in-out;
+
+}
+.mobile-menu-icon .dg-menu-anime {
+	-webkit-transition: -webkit-transform 0.4s ease-in-out,opacity 0.4s ease-in-out;
+	transition: transform 0.4s ease-in-out,opacity 0.4s ease-in-out;
+}
+
+.dng-mobilemenu .mobile-menu-icon .dg-menu-anime.active i:after {
+	opacity: 0;
+	-webkit-transform: rotate(0);
+	transform: rotate(0);
+}
+
+.dng-mobilemenu .mobile-menu-icon .dg-menu-anime.active:before {
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	width: 25px;
+}
+
+.dng-mobilemenu .mobile-menu-icon .dg-menu-anime.active:after {
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	width: 25px;
+}
+
+.header-mobile .dg-menu-anime.active{
+  -webkit-transform: translateX(-50px);
+  transform: translateX(-50px);
+  opacity: 0;
+}
+.header-mobile .dg-menu-anime.active i:after{
+	-webkit-transform: none;
+	transform: none;
+}
+.header-mobile .dg-menu-anime.active:before{
+  top: 17px;
+}
+.header-mobile .dg-menu-anime.active:after{
+  top:3px;
+}

@@ -1,0 +1,208 @@
+ 
+
+
+.fixed-widget-list{
+	position: fixed;
+	right: 42px;
+	bottom:0px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	z-index: 999;
+	pointer-events: none;
+}
+.fixed-widget-list li{
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+	white-space: nowrap;
+	background-color: #2c5cda;
+	margin-bottom: 20px;
+	position: relative;
+	opacity: 0;
+	visibility: hidden;
+	cursor: pointer;
+	transition: all 300ms cubic-bezier(0.65, 0.05, 0.36, 1);
+	pointer-events: initial;
+}
+.fixed-widget-list li span{
+	right: 66px;
+	top: 50%;
+	height: 42px;
+	line-height: 42px;
+	position: absolute;
+	border-radius: 21px;
+	background-color:inherit;
+	margin-top: -21px;
+	color: #fff;
+	padding: 0px 30px;
+	font-size: 16px;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 300ms cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+.fixed-widget-list li a{
+	display: block;
+	width: 0;
+	height: 0;
+	background-color:inherit;
+	background-clip:padding-box;
+	border-radius: 100%;
+	border:28px solid transparent;
+}
+
+
+
+.fixed-widget-list li:hover span{
+	opacity: 1;
+	visibility: visible;
+	right: 76px;
+}
+.fixed-widget-list li:hover{
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.fixed-widget-list li.active{
+	opacity: 1;
+	visibility: visible;
+}
+.fixed-widget-list li{
+	background-image: url("../images/fixed-widget-icon.png");
+	background-repeat: no-repeat;
+	background-position:0 100px;
+}
+.fixed-widget-list li.twitter{
+	background-color: #00abee;
+	background-position:0 0;
+}
+.fixed-widget-list li.youtube{
+	background-color: #cd1616;
+	background-position:0 -56px;
+}
+.fixed-widget-list li.instagram{
+	background-color: #8d20c6;
+	background-position:0 -112px;
+}
+.fixed-widget-list li.vimeo{
+	background-color: #00a7e7;
+	background-position:0 -168px;
+}
+.fixed-widget-list li.pinterest{
+	background-color: #c8232c;
+	background-position:0 -224px;
+}
+.fixed-widget-list li.linkedin{
+	background-color: #1b88bc;
+	background-position:0 -280px;
+}
+.fixed-widget-list li.rss{
+	background-color: #ee942a;
+	background-position:0 -336px;
+}
+.fixed-widget-list li.facebook{
+	background-color: #3b5998;
+	background-position:0 -392px;
+}
+.fixed-widget-list li.phone{
+	background-color: #20a3fd;
+	background-position:0 -448px;
+}
+.fixed-widget-list li.envelope{
+	background-color: #1ec3c9;
+	background-position:0 -504px;
+}
+.fixed-widget-list li.behance{
+	background-color: #1879fd;
+	background-position:0 -672px;
+}
+.fixed-widget-list li.dribbble{
+	background-color: #ea4c89;
+	background-position:0 -728px;
+}
+ 
+.fixed-widget-list li.WhatsApp{
+	background-color: #1ebea5;
+	background-position:0 -784px;
+}
+
+
+.fixed-widget-list li.share{
+	background-color: #ff6e2f;
+	opacity: 1;
+	visibility: visible;
+	background-position:0 -560px;
+	transition: all 300ms cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+
+
+
+.fixed-widget-list li.share.active{
+	background-position:0 -616px;
+}
+
+
+.fixed-widget-list li.backtop{
+	opacity: 1;
+	visibility: visible;
+	margin-bottom:-56px;
+	transition: all 300ms cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+.fixed-widget-list li.backtop::after{
+	content: "";
+	width: 15px;
+	height: 15px;
+	border-top:1px solid #FFF;
+	border-left:1px solid #FFF;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	margin: -6px 0 0 0px;
+	transition: all 300ms cubic-bezier(0.65, 0.05, 0.36, 1);
+	margin-left:0;
+	transform-origin: 2px 1px;
+	backface-visibility: hidden;
+
+}
+.fixed-widget-list li.backtop::before{
+	content: "";
+	height: 0px;
+	border-left: 1px solid #FFF;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -5px 0px 0px 1px;
+	transition: all 300ms cubic-bezier(0.65, 0.05, 0.36, 1);
+	transform: translateX(-0.4px);
+	backface-visibility: hidden;
+
+}
+.fixed-widget-list li.backtop:hover::before{
+	margin: -11px 0px 0px 1px;
+	height: 24px;
+}
+.fixed-widget-list li.backtop:hover::after{
+	margin-top: -12px;
+}
+
+.fixed-widget-list li.backtop.active{
+	margin-bottom:30px;
+}
+
+
+@media only screen and (max-width: 767px) {
+	.fixed-widget-list{
+		right: 7px;
+		-webkit-transform: scale(0.714285714);
+		transform: scale(0.714285714);
+		-webkit-transform-origin: center bottom;
+		transform-origin: center bottom;
+	}
+
+
+	.fixed-widget-list li span,
+	.fixed-widget-list li:hover span{
+			display: none;
+	}
+
+}
